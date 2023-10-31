@@ -20,7 +20,7 @@ Dosen  : Donny Maulana S.kom M.M.SI
 
 ## MainActivity.java 
 cara membuka MainActivity.java ini yaitu app -> java -> com.toast -> MainActivity.java
-'''
+```
 package com.toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
         showCount.setText(getString(R.string.count_initial_value));
     }
 }
-'''
+```
 
 ## activity_main.xml
 
