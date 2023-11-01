@@ -17,7 +17,7 @@ Dosen  : Donny Maulana S.kom M.M.SI
 |2|activy_main.xml|[Click Here](#activity_mainxml)|
 |3|strings.xml|[Click Here](#stringsxml)|
 |4|MainActivity.java|[Click Here](#colorsxml)|
-|5|finished|[Click Here](#thankyouandseeyouagain)|
+|5|Thank_you_and_see_you_again|[Click Here](#thankyouandseeyouagain)|
 
 ## MainActivity.java 
 cara membuka MainActivity.java  yaitu app -> java -> com.toast -> MainActivity.java
@@ -192,6 +192,6 @@ cara buka colors.xml yaitu app -> res -> values -> colors.xml
 </resources>
 ```
 
-## Thank you and see you again 
+## Thank_you_and_see_you_again 
 createed by Frans Putra Sinaga
 
