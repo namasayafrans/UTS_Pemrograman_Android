@@ -166,9 +166,31 @@ cara membuka activity_main.xml yaitu app -> res -> layout -> activity_main.xml
 ```
 
 ## strings.xml
-
-
+cara buka strings.xml yaitu app -> res -> values -> strings.xml
+```
+<resources>
+    <string name="app_name">toast</string>
+    <string name="button_label_toast">Toast</string>
+    <string name="button_label_count">Count</string>
+    <string name="count_initial_value"></string>
+    <string name="toast_message">Bilangan Fibonanci</string>
+    <string name="button_label_finish">reset</string>
+</resources>
+```
 
 ## colors.xml
+cara buka colors.xml yaitu app -> res -> values -> colors.xml
+```
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#3F5185</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>
+```
 
+## Thank you and see you again 
+createed by Frans Putra Sinaga
 
