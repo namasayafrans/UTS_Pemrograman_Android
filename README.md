@@ -14,7 +14,7 @@ Dosen  : Donny Maulana S.kom M.M.SI
 | No | Description | Link |
 |-----|------|-----|
 |1|MainActivity.java|[Click Here](#mainactivityjava)|
-|2|activy_main.xml|[Click Here](#activity_main.xml)|
+|2|activy_main.xml|[Click Here](#activity_mainxml)|
 |3|strings.xml|[Click Here](#strings.xml)|
 |4|colors.xml|[Click Here](#colors.xml)|
 
