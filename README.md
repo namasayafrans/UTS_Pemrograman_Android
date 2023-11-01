@@ -17,7 +17,6 @@ Dosen  : Donny Maulana S.kom M.M.SI
 |2|activy_main.xml|[Click Here](#activity_mainxml)|
 |3|strings.xml|[Click Here](#stringsxml)|
 |4|MainActivity.java|[Click Here](#colorsxml)|
-|5|Thank_you_and_see_you_again|[Click Here](#thankyouandseeyouagain)|
 
 ## MainActivity.java 
 cara membuka MainActivity.java  yaitu app -> java -> com.toast -> MainActivity.java
