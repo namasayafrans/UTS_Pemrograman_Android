@@ -19,7 +19,7 @@ Dosen  : Donny Maulana S.kom M.M.SI
 |4|MainActivity.java|[Click Here](#colorsxml)|
 
 ## MainActivity.java 
-cara membuka MainActivity.java ini yaitu app -> java -> com.toast -> MainActivity.java
+cara membuka MainActivity.java  yaitu app -> java -> com.toast -> MainActivity.java
 ```
 package com.toast;
 
@@ -81,10 +81,89 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## activity_main.xml
+cara membuka activity_main.xml yaitu app -> res -> layout -> activity_main.xml
+```
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorPrimary"
+        android:hint="@string/button_label_toast"
+        android:onClick="showToast"
+        android:textColor="@android:color/white"
+        android:textColorHint="#BBDEFB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UsingOnClickInXml,VisualLintButtonSize" />
 
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="190dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:onClick="countUp"
+        android:text="@string/button_label_count"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        tools:ignore="UsingOnClickInXml,VisualLintButtonSize"
+         />
 
-
+    <Button
+        android:id="@+id/button_finish"
+        android:layout_width="190dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:onClick="back1"
+        android:text="@string/button_label_finish"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="UsingOnClickInXml,VisualLintButtonSize"
+        />
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#FFFF00"
+        android:gravity="center_vertical"
+        android:text="@string/count_initial_value"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="160sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/button_count"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_toast"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
 
 ## strings.xml
 
