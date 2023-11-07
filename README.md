@@ -229,7 +229,7 @@ dan ini hasil nya
 
 
 
-https://github.com/namasayafrans/UTS_Pemrograman_Android/assets/115770839/bd2a7f3c-2bb1-47f0-872c-1977dcf0f4ed
+https://github.com/namasayafrans/UTS_Pemrograman_Android/assets/115770839/b4b43825-011a-4c38-828c-b31180970d30
 
 
 
