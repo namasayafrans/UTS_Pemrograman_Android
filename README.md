@@ -227,7 +227,11 @@ cara buka colors.xml yaitu app -> res -> values -> colors.xml
 cara menjalkan program yaitu siapkan android / emulator android -> lihat di sebel  kanan ada bacccan nama device/ android kkita -> klik logo run 
 dan ini hasil nya 
 
-https://github.com/namasayafrans/UTS_Pemrograman_Android/assets/115770839/5aa99f08-4357-471f-b78a-6e30e2eca96b
+
+
+https://github.com/namasayafrans/UTS_Pemrograman_Android/assets/115770839/bd2a7f3c-2bb1-47f0-872c-1977dcf0f4ed
+
+
 
 ## Thank_you_and_see_you_again 
 createed by Frans Putra Sinaga
